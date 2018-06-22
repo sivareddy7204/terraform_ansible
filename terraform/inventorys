@@ -1,0 +1,11 @@
+[backend]
+107.21.130.185
+
+
+[backend:vars]
+ansible_host: "107.21.130.185"
+ansible_password: "hemaLATHA@9490"
+ansible_winrm_server_cert_validation: ignore
+ansible_connection: 'winrm'
+ansible_user: sivareddy
+ansible_port: 5986
